@@ -4,7 +4,7 @@ A Python script to convert RenderDoc `VS Input` .csv exports from GameCube games
 
 ## Requirements
 
-- Python 3.x (no external libraries needed, uses built-in `csv` module)
+- [Python 3.x](https://www.python.org/downloads/) (no external libraries needed, uses built-in `csv` module)
 - [RenderDoc](https://renderdoc.org/) for capturing and exporting vertex data
 - Blender (or any 3D viewer that supports `.obj`) to view the result
 
