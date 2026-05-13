@@ -58,6 +58,6 @@ You can now navigate between the **Texture Viewer** and the **Mesh Viewer**.
 2. At the bottom of the screen you have the **VS In** and **VS Out** tabs. These show the actual mesh (without textures).
    - **VS In** shows the mesh as given to the engine to draw, it's like the raw model at the (0,0,0) position.
    - **VS Out** shows the model as it's drawn on the scene, as we see it in game.
-3. To save the mesh, right-click on the first cell of the left table (**VS Input**), under "VTX" -> **Export to CSV**
+3. To save the mesh, right-click on the first cell of the **left** table (**VS Input**), under "VTX" -> **Export to CSV**
 
 ![App Screenshot](readme_img/renderdoc_exportcsv.png)
