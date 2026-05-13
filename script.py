@@ -1,6 +1,6 @@
 import csv
 
-csv_file = input("Enter the CSV filename: ").strip()
+csv_file = input("Enter the CSV filename (e.g. tv.csv): ").strip()
 texture_file = input("Enter texture filename (e.g. tv.png): ").strip()
 
 vertices = []
