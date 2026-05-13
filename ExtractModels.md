@@ -4,10 +4,12 @@ This is the guide I wish I had when I started, so I hope it's helpful for you!
 
 I actually haven't tried with other games or other consoles, but it should work the same way.
 
-## ⚠️ Recommendations ⚠️
+⚠️ **Recommendations** ⚠️
 - Opening Dolphin from Renderdoc runs games reaaaaaally slowly, like at 4 fps. If you still haven't played the game, start a new run before this process and save the game at least in one state slot, so when you open Dolphin from Renderdoc you can directly load the game at your desired spot.
 
 - The object you want must be visible on screen.
+  
+- Save the .csv and .png files in the same folder as the script to make it faster.
 
 ## Step 1: Set up Dolphin Emulator
 
@@ -50,3 +52,12 @@ You can now navigate between the **Texture Viewer** and the **Mesh Viewer**.
 3. To save it, click on the blue save icon in **Actions**. ⚠️MAKE SURE TO CHANGE THE OUTPUT TYPE OF FILE TO A DESIRED ONE (for example .png)!
 
 ![App Screenshot](readme_img/renderdoc_savetextures.png)
+
+# Mesh Viewer
+1. With the same object selected as in the Texture Viewer, head to the **Mesh Viewer** tab. Here you'll see tables containing numbers. Those are the vertex coordinates for the model and textures.
+2. At the bottom of the screen you have the **VS In** and **VS Out** tabs. These show the actual mesh (without textures).
+   - **VS In** shows the mesh as given to the engine to draw, it's like the raw model at the (0,0,0) position.
+   - **VS Out** shows the model as it's drawn on the scene, as we see it in game.
+3. To save the mesh, right-click on the first cell of the left table (**VS Input**), under "VTX" -> **Export to CSV**
+
+![App Screenshot](readme_img/renderdoc_exportcsv.png)
