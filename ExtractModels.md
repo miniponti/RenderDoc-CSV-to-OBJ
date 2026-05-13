@@ -32,4 +32,13 @@ As in the picture:
 ![App Screenshot](readme_img/renderdoc_launch.png)
 
 Click on **Launch**.
-Now Dolphin will start normally. Open your game, load the save/state and head back to RenderDoc.
+Now Dolphin will start normally. Open your game, load the save/state and head back to RenderDoc. You'll see a new tab has opened with the name Dolphin.
+
+## Step 3: Capture frames
+
+![App Screenshot](readme_img/renderdoc_captures.png)
+
+1. Press **Capture Frame(s) Immediately**. A screenshot of the game will appear.
+2. Select the capture and save it.
+3. To open it, double-click it.
+
