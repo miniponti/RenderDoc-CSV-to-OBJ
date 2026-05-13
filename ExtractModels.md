@@ -42,3 +42,11 @@ Now Dolphin will start normally. Open your game, load the save/state and head ba
 2. Select the capture and save it.
 3. To open it, double-click it.
 
+You can now navigate between the **Texture Viewer** and the **Mesh Viewer**. 
+
+# Texture Viewer
+1. To actually see some textures, look at the left panel "**Event Browser**". The objects drawn to the buffer are the ones in the **Colour Pass #** sections: `DrawIndexed(x)`.
+2. Select any of the objects and its texture will appear. If you see on the right panel the texture but doesn't appear on the viewport (under the save icon), click the texture on the right panel.
+3. To save it, click on the blue save icon in **Actions**. ⚠️MAKE SURE TO CHANGE THE OUTPUT TYPE OF FILE TO A DESIRED ONE (for example .png)!
+
+![App Screenshot](readme_img/renderdoc_savetextures.png)
