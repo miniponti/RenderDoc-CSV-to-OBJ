@@ -17,7 +17,7 @@ See `ExtractModels.md` for instructions on how to do this.
 
 ```bash
 python script.py
-
+```
 2. It will ask you to enter the names of the files **with the extension**. Write and press enter.
 3. If everything is good, it will tell you the .obj and .mtl were made successfully.
 4. Open a 3D editing program (e.g Blender) and import the obj, you should be able to see the object perfectly rendered.
