@@ -24,4 +24,4 @@ python script.py
 
 Note: sometimes a single object was extracted in many parts. In that case you have to repeat this process for each of the draw calls in Renderdoc, having multiple .csv for one object. Then in the 3D editing tool, join all the parts and you have the complete 3D object!
 
-![Example](readme_img/object.png)
+![Example](readme_img/object_example.png)
