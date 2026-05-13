@@ -8,7 +8,7 @@ I actually haven't tried with other games or other consoles, but it should work 
 
 1. Download latest dolphin version: ![Dolphin Emulator](https://es.dolphin-emu.org)
 2. Head to **Settings/Config** -> **Graphics** and in the **General** tab you'll see the **Backend** option. Set it to: `Direct3D 11`
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](readme_img/dolphin_general.png)
 
 3. Now in the same **Graphics** section, head to the **Hacks** tab. Uncheck `Skip EFB Access from CPU`
 ![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
