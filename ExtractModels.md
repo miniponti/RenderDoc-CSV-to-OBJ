@@ -2,7 +2,12 @@
 
 This is the guide I wish I had when I started, so I hope it's helpful for you!
 
-I actually haven't tried with other games or other consoles, but it should work the same way. 
+I actually haven't tried with other games or other consoles, but it should work the same way.
+
+## ⚠️ Recommendations ⚠️
+- Opening Dolphin from Renderdoc runs games reaaaaaally slowly, like at 4 fps. If you still haven't played the game, start a new run before this process and save the game at least in one state slot, so when you open Dolphin from Renderdoc you can directly load the game at your desired spot.
+
+- The object you want must be visible on screen.
 
 ## Step 1: Set up Dolphin Emulator
 
@@ -20,4 +25,11 @@ Close Dolphin Emulator and open RenderDoc. You'll be greeted with the following 
 
 Go to **File** -> **Launch Application** and change the following options:
 
-- 
+- Executable Path -> path to Dolphin.exe
+- Working Directory -> Dolphin's folder
+
+As in the picture:
+![App Screenshot](readme_img/renderdoc_launch.png)
+
+Click on **Launch**.
+Now Dolphin will start normally. Open your game, load the save/state and head back to RenderDoc.
