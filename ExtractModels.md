@@ -11,12 +11,12 @@ I actually haven't tried with other games or other consoles, but it should work 
 ![App Screenshot](readme_img/dolphin_general.png)
 
 3. Now in the same **Graphics** section, head to the **Hacks** tab. Uncheck `Skip EFB Access from CPU`
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](readme_img/dolphin_hacks.png)
 
 ## Step 2: Launch Dolphin from within RenderDoc
 Close Dolphin Emulator and open RenderDoc. You'll be greeted with the following screen:
 
-![App Screenshot](https://dummyimage.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](readme_img/renderdoc.png)
 
 Go to **File** -> **Launch Application** and change the following options:
 
