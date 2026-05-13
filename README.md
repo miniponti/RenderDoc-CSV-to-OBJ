@@ -23,3 +23,5 @@ python script.py
 4. Open a 3D editing program (e.g Blender) and import the obj, you should be able to see the object perfectly rendered.
 
 Note: sometimes a single object was extracted in many parts. In that case you have to repeat this process for each of the draw calls in Renderdoc, having multiple .csv for one object. Then in the 3D editing tool, join all the parts and you have the complete 3D object!
+
+![Example](readme_img/object.png)
